@@ -2,10 +2,10 @@ body {
  background: #6F7D88;
  color: #000;
  margin: 0 0 0 0;
- font:normal 12px Verdana, Geneva, sans-serif;
+ font:x-medium/1.5em "Trebuchet MS",Verdana,Arial,Sans-serif;
 }
 td {
- font-size: 13px;
+ font-size: 15px;
 }
 .none a {
  border: 0;
