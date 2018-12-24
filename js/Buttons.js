@@ -54,18 +54,6 @@ class Buttons {
         <span class="indicator">${value.replace("_", "<br>")}</span>
       </div>`);
 
-    this.addButton("quality", "high", ["high", "medium", "low"], value =>  `
-      <div class='label'>quality</div>
-      <div class='option'>
-        <span class="indicator">${value}</span>
-      </div>`);
-
-    this.addButton("music", "", [""], value => `
-      <div class='label'>mixtape</div>
-      <div class='option'>
-        <span class="indicator">play</span>
-      </div>`);
-
     this.addButton("level", "industrial", ["industrial", "night", "city", "tunnel", "beach", "warp", "spectre", "nullarbor", "marshland"], value => `
       <div class='label'>level select</div>
       <div class='option'>
