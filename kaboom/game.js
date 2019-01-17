@@ -21,10 +21,6 @@ if (version == 1) {  // "pants"
     TITLE_BOTTOM = loadImage("quick_title_crop.png");
     BUCKET_SPRITE = loadImage("couch.png");
     EXPLODE_SPRITE = loadImage("bomb_explode.png");
-    if (Math.random() > .8)
-        var BOTTOM_LABEL = loadImage("odestcj.png");
-    else
-        var BOTTOM_LABEL = loadImage("odestcj2.png");
 }
 else {  // original
     BOMBER_SPRITE = loadImage("bomber.png");
@@ -35,10 +31,6 @@ else {  // original
     EXPLODE_SPRITE = loadImage("bomb_explode.png");
     TITLE = loadImage("quick_title.png");
     BUCKET_SPRITE = loadImage("bucket.png");
-    if (Math.random() > .8)
-        var BOTTOM_LABEL = loadImage("odestcj.png");
-    else
-        var BOTTOM_LABEL = loadImage("odestcj2.png");
 }
 
 
