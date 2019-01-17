@@ -1,17 +1,3 @@
-
-///////////////////////////////////////////////////////////////
-///
-/// KACHOW!
-/// A quick recreation by a huge 2600 fan
-///
-/// Chad Jenkins
-/// (odestcj@gmail.com)
-///
-/// Written mostly on a transatlantic flight trip,
-/// expect lots of quirks from hastily written code
-///
-///////////////////////////////////////////////////////////////
-
 ///////////////////////////////////////////////////////////////
 //                                                           //
 //                    CONSTANT STATE                         //
