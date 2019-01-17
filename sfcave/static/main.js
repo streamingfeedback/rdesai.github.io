@@ -44,8 +44,8 @@ function drawFrame(){
                 ctx.fillStyle='orange';
                 ctx.fillRect(0,0,cw,ch);
                 ctx.fillStyle = "white";
-                ctx.fillText("sfcave2", 20,35);
-                ctx.fillText("yuzawa-san", 20,55);
+                ctx.fillText("sfcave", 20,35);
+                ctx.fillText("rdesai.com", 20,55);
                 if(highScore>0){
                     ctx.fillText("high score: "+highScore, 20,75);
                 }
