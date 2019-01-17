@@ -1,11 +1,11 @@
 <!DOCTYPE html
           PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
           "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<meta charset="utf-8"/><!-- must be in the first 1024 bytes -->    
+<meta charset="utf-8"/>    
 
 <html oncontextmenu="return false" >
   <head>
-    <title>Game: KACHOW!</title>
+    <title>Kaboom!</title>
 
     <meta http-equiv="content-script-type" content="text/javascript"/>
     <!-- Prevent Chrome from caching the game.js file and thus preventing its reloading when debugging -->
@@ -88,7 +88,14 @@
            console.log(s + s);
        }
     </script>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131293889-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-131293889-1');
+        </script>
   </head>
 
   <body oncontextmenu="return false" onload="_ch_onLoad();" style="margin: 0px; background: #000;">
