@@ -149,6 +149,8 @@ Error message and password prompt
 
 <li>$:/config/HideSidebarOnStartup</li>
 
+<li>$:/config/jd/mobbutton/visibility/$:/plugins/jd/mob/button/search</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
@@ -311,6 +313,9 @@ exports.startup = function() {
 </div>
 <div bag="default" created="20151007165524815" creator="Tobias Beer" modified="20171127223453494" revision="0" tags="" title="$:/config/HideSidebarOnStartup" type="text/vnd.tiddlywiki">
 <pre>yes</pre>
+</div>
+<div created="20190811174945852" modified="20190811174945852" title="$:/config/jd/mobbutton/visibility/$:/plugins/jd/mob/button/search">
+<pre>show</pre>
 </div>
 <div created="20170201005108737" modified="20170201005108737" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
@@ -10264,19 +10269,19 @@ very-muted-foreground: #3a3a3a</pre>
     }
 }</pre>
 </div>
-<div created="20171109145547252" creator="JD" modified="20190811174724290" modifier="JD" title="$:/plugins/jd/mob/config/config" type="application/x-tiddler-dictionary">
+<div created="20171109145547252" creator="JD" modified="20190811174954877" modifier="JD" title="$:/plugins/jd/mob/config/config" type="application/x-tiddler-dictionary">
 <pre>freshinstall: yes
 defaultconfirm: cancel
 configtype: list
 fontsize: default
 scrollbars: show
-barpreset: 1
+barpreset: 5
 storyfix: no
 titlebaradjust: no
-topbar: title
-topbarchoice: title
+topbar: mobbuttons
+topbarchoice: mobbuttons
 searchbar: no
-radbuttop: title
+radbuttop: mobbuttons
 searchbarchoice: simple
 bottombar: hide
 radbuttopfixedsearchops: hide
